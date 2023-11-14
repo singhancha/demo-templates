@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.story{
+    width: 100%;
+    display: grid;
+    gap: 90px;
+    & h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Dosis', sans-serif;
+        font-weight: 500;
+    }
+    & p{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        padding: 0px 300px ;
+        line-height: 30px;
+    }
+    & .image{
+    
+        border: 2px solid black;
+        width: 100%;
+    
+       
+    }
+}
